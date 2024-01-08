@@ -1,9 +1,11 @@
+/* Apply default  to all elements */
 * {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  border: border-boxF;
+  border: border-box;
 }
 
+/* Navigation Bar  */
 .navbar {
   height: 60px;
   background-color: #0f1111;
@@ -13,7 +15,7 @@
   justify-content: space-evenly;
 }
 
-/* logo */
+/* Logo  */
 .nav-logo {
   height: 50px;
   width: 100px;
@@ -27,6 +29,7 @@
   transition: 0.3s ease;
 }
 
+/* Border  */
 .border {
   border: 1px solid transparent;
   transition: 0.3s ease;
@@ -37,7 +40,7 @@
   transform: scale(0.95);
 }
 
-/* location */
+/* Location  */
 .add-first {
   color: #cccccc;
   font-size: 0.8rem;
@@ -55,7 +58,7 @@
   align-items: center;
 }
 
-/* nav search */
+/* Navigation Search  */
 .nav-search {
   display: flex;
   justify-content: space-evenly;
@@ -98,7 +101,7 @@
   font-size: 1.2rem;
 }
 
-/* country */
+/* Country Selection  */
 .country {
   width: 60px;
   height: 33px;
@@ -118,7 +121,7 @@
   bottom: 3px;
 }
 
-/* account */
+/* Account  */
 .account {
   width: 115px;
   height: 40px;
@@ -137,7 +140,7 @@
   font-weight: 700;
 }
 
-/* orders */
+/* Orders  */
 .ord-p1 {
   font-size: 0.8rem;
   font-weight: 300;
@@ -148,7 +151,7 @@
   font-weight: 700;
 }
 
-/* cart */
+/* Cart  */
 .cart {
   width: 66px;
   height: 39px;
@@ -170,14 +173,14 @@
   font-size: 1rem;
 }
 
-/* panel */
+/* Panel  */
 .panel {
   position: sticky;
   top: 0;
   height: 41px;
   width: 100%;
   background-color: #232f3f;
-  z-index: 100; /* Ensure the panel stays above other content */
+  z-index: 100;
 }
 
 .pan-all {
@@ -220,7 +223,7 @@
   top: 0;
 }
 
-/* hero section */
+/* Hero Section  */
 .hero-section {
   background: url("img/hero_image.jpg");
   height: 400px;
@@ -251,7 +254,7 @@
   text-decoration: none;
 }
 
-/* shop section */
+/* Shop Section  */
 .shop-section {
   display: flex;
   flex-wrap: wrap;
@@ -259,6 +262,7 @@
   background-image: linear-gradient(#bac8cb, #fdf8f7);
 }
 
+/* Box  */
 .box {
   border-radius: 0.5rem;
   height: 400px;
@@ -301,7 +305,7 @@
   color: #007185;
 }
 
-/* Responsive Styles */
+/* Responsive  */
 
 /* Small screens */
 @media only screen and (max-width: 768px) {
